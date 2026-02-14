@@ -14,6 +14,9 @@ Prerequisites
 <pre>    .\go run main.go
      </pre>
 
+# Demo
+https://github.com/user-attachments/assets/52ffd462-eec3-476c-8f56-8a6111cff62a
+
 #
 ## Follow Me
 
