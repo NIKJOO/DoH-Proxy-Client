@@ -8,11 +8,21 @@ Prerequisites
   + Terminal access.
 
 1. Clone the Repository
-<pre>    git clone https://github.com/NIKJOO/DoH-Proxy-Client.git
-    cd DoH-Proxy-Client </pre>
-2. Run 
-<pre>    .\go run main.go
-     </pre>
+``` bash
+git clone https://github.com/NIKJOO/DoH-Proxy-Client.git
+cd DoH-Proxy-Client
+```
+
+2. Install necessary packages
+```bash
+go mod init myproject
+go get github.com/miekg/dns
+```
+
+3. Run 
+```bash
+go run main.go
+```
 #
 ## Follow Me
 
